@@ -1,0 +1,7 @@
+public enum UpgradeType {
+    SPEEDBOOST,
+    EXTRALIFE,
+    DOUBLEPOINTS,
+    INVISIBILITY,
+    SLOWENEMIES
+}
