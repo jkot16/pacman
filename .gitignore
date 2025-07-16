@@ -18,5 +18,4 @@ bin/
 /.nb-gradle/
 .vscode/
 .DS_Store
-.idea/
-.idea
+
