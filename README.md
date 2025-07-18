@@ -5,7 +5,7 @@
 ![CustomAssets](https://img.shields.io/badge/Assets-Custom-yellow)
 ![Game](https://img.shields.io/badge/Genre-Arcade-brightgreen)
 
-<img width="975" height="589" alt="pacman" src="https://github.com/user-attachments/assets/54b95aa5-93a0-4a7c-a96b-7f69cf2d2367" />
+![main](pngs/pacman.png)
 
 
 ---
@@ -59,9 +59,9 @@ See **Pacman** in action:
   - New Game
   - High Scores (for each map)
   - Exit option
- 
 
-<img width="1183" height="781" alt="game" src="https://github.com/user-attachments/assets/ca6f5c0e-4da0-483f-912d-d4cb2ea3cb19" />
+ 
+![game](pngs/game.png)
 
 ---
 
@@ -118,7 +118,7 @@ Upgrades last for 8 seconds.
 - Leaderboard keeps top scores, sorted by points  
 - Viewable via menu at any time
 
-<img width="413" height="281" alt="highscores" src="https://github.com/user-attachments/assets/6036818b-8ca5-4476-acfa-a2943e7673ba" />
+![highscores](pngs/highscores.png)
 
 
 ---
