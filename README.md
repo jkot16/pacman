@@ -28,6 +28,11 @@
 **Pacman** is a Java-based arcade game with modern design, animated sprites, and selectable map sizes.  
 Built entirely with Swing and custom assets, the game offers smooth gameplay, upgrades, and a local leaderboard.
 
+## 🎥 Demo
+
+See **Pacman** in action:  
+▶️ [Watch on YouTube](https://youtu.be/DBJ_XIjbmwY)
+
 ---
 
 ## 2. 🧠 Key Features
