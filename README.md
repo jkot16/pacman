@@ -37,13 +37,28 @@ See **Pacman** in action:
 
 ## 2. 🧠 Key Features
 
-- Multiple map sizes: Mini → Extra Large  
-- Real-time player animation in all directions  
-- Ghosts with collision logic and map awareness  
-- Random power-ups (speed, life, invisibility...)  
-- Custom game-over and scoring screen  
-- Menu bar with map selection and high scores
+- 5 playable map sizes:
+  - 🟢 Mini (13×9)  
+  - 🟡 Small (15×11)  
+  - 🟠 Medium (25×17)  
+  - 🔴 Large (35×23)  
+  - 🟣 Extra Large (45×29)
 
+- Real-time Pacman animation in 4 directions (Up / Down / Left / Right)
+- AI-controlled ghosts with collision detection and respawn logic
+- Randomly spawning power-ups:
+  - ⚡ `SPEEDBOOST` – temporary +50% player speed  
+  - ❤️ `EXTRALIFE` – grants 1 additional life  
+  - ✨ `DOUBLEPOINTS` – doubles score for collected dots  
+  - 👻 `INVISIBILITY` – makes Pacman immune to ghosts  
+  - 🐌 `SLOWENEMIES` – halves ghost speed temporarily
+
+- Custom game-over screen with nickname input
+- Local leaderboard system sorted by score (per map)
+- Integrated Swing menu bar with:
+  - New Game
+  - High Scores (for each map)
+  - Exit option
 ---
 
 ## 3. ⚙️ Tech Stack
