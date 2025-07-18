@@ -1,0 +1,122 @@
+# 🟡 Pacman – Java Maze Arcade Game
+
+![Java](https://img.shields.io/badge/Java-17+-red?logo=java)
+![Swing](https://img.shields.io/badge/Swing-GUI-blue?logo=oracle)
+![CustomAssets](https://img.shields.io/badge/Assets-Custom-yellow)
+![Game](https://img.shields.io/badge/Genre-Arcade-brightgreen)
+
+<img width="975" height="589" alt="pacman" src="https://github.com/user-attachments/assets/54b95aa5-93a0-4a7c-a96b-7f69cf2d2367" />
+
+
+---
+
+## 📑 Table of Contents
+
+1. [🔍 Project Overview](#1-project-overview)  
+2. [🧠 Key Features](#2-key-features)  
+3. [⚙️ Tech Stack](#3-tech-stack)  
+4. [🕹️ Gameplay & Controls](#4-gameplay--controls)  
+5. [👾 Ghosts & Power-Ups](#5-ghosts--power-ups)  
+6. [💾 High Score System](#6-high-score-system)  
+7. [🎨 Graphics & Animations](#7-graphics--animations)  
+8. [📦 Installation & Usage](#8-installation--usage)
+
+---
+
+## 1. 🔍 Project Overview
+
+**Pacman** is a Java-based arcade game with modern design, animated sprites, and selectable map sizes.  
+Built entirely with Swing and custom assets, the game offers smooth gameplay, upgrades, and a local leaderboard.
+
+---
+
+## 2. 🧠 Key Features
+
+- Multiple map sizes: Mini → Extra Large  
+- Real-time player animation in all directions  
+- Ghosts with collision logic and map awareness  
+- Random power-ups (speed, life, invisibility...)  
+- Custom game-over and scoring screen  
+- Menu bar with map selection and high scores
+
+---
+
+## 3. ⚙️ Tech Stack
+
+| Component     | Technology     |
+|---------------|----------------|
+| Language      | Java 17+       |
+| GUI           | Swing          |
+| Animation     | ImageIcon + Threads |
+| Data Storage  | Serializable `.dat` files |
+| Assets        | PNG icons and backgrounds |
+
+---
+
+## 4. 🕹️ Gameplay & Controls
+
+| Action             | Key               |
+|--------------------|-------------------|
+| Move               | Arrow keys        |
+| Pause / Exit       | Esc               |
+| Start Game         | Menu → New Game   |
+| View High Scores   | Menu → High Scores |
+
+> Each map offers a different level size, ghost count, and difficulty.
+
+---
+
+## 5. 👾 Ghosts & Power-Ups
+
+### 👻 Ghosts
+- Move randomly each frame  
+- Colliding with player reduces lives  
+- Spawn upgrades with chance
+
+### ⚡ Power-Ups
+| Type           | Effect              |
+|----------------|---------------------|
+| Speed Boost    | +50% player speed   |
+| Extra Life     | +1 life             |
+| Double Points  | 2x points per dot   |
+| Invisibility   | Ghosts ignore player |
+| Slow Enemies   | Ghosts move slower  |
+
+Upgrades last for 8 seconds.
+
+---
+
+## 6. 💾 High Score System
+
+- After game over, players enter a nickname  
+- Scores are saved locally based on map size:  
+  `highscores_Mini.dat`, `highscores_Large.dat`, etc.  
+- Leaderboard keeps top scores, sorted by points  
+- Viewable via menu at any time
+
+---
+
+## 7. 🎨 Graphics & Animations
+
+- 3-frame directional animation for player movement  
+- Ghosts and power-ups rendered on-grid using `JPanel`  
+- Visual layering for player, ghosts, and dots  
+- Assets stored in `src/images/` and `src/images/animation/`
+
+![survival](pngs/survival.png)
+
+---
+
+## 8. 📦 Installation & Usage
+
+### Requirements:
+- Java 17 or newer
+- Any IDE (IntelliJ / Eclipse) or command-line
+
+### Run the Game:
+
+```bash
+git clone https://github.com/yourusername/pacman-java.git
+cd pacman-java
+javac src/Pacman.java
+java -cp src Pacman
