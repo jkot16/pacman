@@ -50,7 +50,7 @@ See **Pacman** in action:
   - ⚡ `SPEEDBOOST` – temporary +50% player speed  
   - ❤️ `EXTRALIFE` – grants 1 additional life  
   - ✨ `DOUBLEPOINTS` – doubles score for collected dots  
-  - 👻 `INVISIBILITY` – makes Pacman immune to ghosts  
+  - 👻 `INVISIBILITY` – Pacman becomes immune to ghost collisions
   - 🐌 `SLOWENEMIES` – halves ghost speed temporarily
 
 - Custom game-over screen with nickname input
@@ -142,7 +142,7 @@ Upgrades last for 8 seconds.
 ### Run the Game:
 
 ```bash
-git clone https://github.com/yourusername/pacman-java.git
-cd pacman-java
+git clone https://github.com/jkot16/pacman.git
+cd pacman
 javac src/Pacman.java
 java -cp src Pacman
