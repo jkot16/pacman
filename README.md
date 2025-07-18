@@ -118,6 +118,9 @@ Upgrades last for 8 seconds.
 - Leaderboard keeps top scores, sorted by points  
 - Viewable via menu at any time
 
+<img width="413" height="281" alt="highscores" src="https://github.com/user-attachments/assets/6036818b-8ca5-4476-acfa-a2943e7673ba" />
+
+
 ---
 
 ## 7. 🎨 Graphics & Animations
