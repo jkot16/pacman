@@ -59,6 +59,10 @@ See **Pacman** in action:
   - New Game
   - High Scores (for each map)
   - Exit option
+ 
+
+<img width="1183" height="781" alt="game" src="https://github.com/user-attachments/assets/ca6f5c0e-4da0-483f-912d-d4cb2ea3cb19" />
+
 ---
 
 ## 3. ⚙️ Tech Stack
@@ -123,7 +127,6 @@ Upgrades last for 8 seconds.
 - Visual layering for player, ghosts, and dots  
 - Assets stored in `src/images/` and `src/images/animation/`
 
-![survival](pngs/survival.png)
 
 ---
 
