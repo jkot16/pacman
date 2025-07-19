@@ -23,7 +23,7 @@
 
 ---
 
-## 1. 🔍 Project Overview
+## 1. Project Overview
 
 **Pacman** is a Java-based arcade game with modern design, animated sprites, and selectable map sizes.  
 Built entirely with Swing and custom assets, the game offers smooth gameplay, upgrades, and a local leaderboard.
@@ -35,7 +35,7 @@ See **Pacman** in action:
 
 ---
 
-## 2. 🧠 Key Features
+## 2. Key Features
 
 - 5 playable map sizes:
   - 🟢 Mini (13×9)  
@@ -65,7 +65,7 @@ See **Pacman** in action:
 
 ---
 
-## 3. ⚙️ Tech Stack
+## 3. Tech Stack
 
 | Component     | Technology     |
 |---------------|----------------|
@@ -77,7 +77,7 @@ See **Pacman** in action:
 
 ---
 
-## 4. 🕹️ Gameplay & Controls
+## 4. Gameplay & Controls
 
 | Action             | Key               |
 |--------------------|-------------------|
@@ -90,7 +90,7 @@ See **Pacman** in action:
 
 ---
 
-## 5. 👾 Ghosts & Power-Ups
+## 5. Ghosts & Power-Ups
 
 ### 👻 Ghosts
 - Move randomly each frame  
@@ -110,7 +110,7 @@ Upgrades last for 8 seconds.
 
 ---
 
-## 6. 💾 High Score System
+## 6. High Score System
 
 - After game over, players enter a nickname  
 - Scores are saved locally based on map size:  
@@ -123,7 +123,7 @@ Upgrades last for 8 seconds.
 
 ---
 
-## 7. 🎨 Graphics & Animations
+## 7. Graphics & Animations
 
 - 3-frame directional animation for player movement  
 - Ghosts and power-ups rendered on-grid using `JPanel`  
@@ -133,7 +133,7 @@ Upgrades last for 8 seconds.
 
 ---
 
-## 8. 📦 Installation & Usage
+## 8. Installation & Usage
 
 ### Requirements:
 - Java 17 or newer
